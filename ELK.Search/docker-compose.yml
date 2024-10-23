@@ -1,0 +1,34 @@
+﻿version: '3.8'
+
+services:
+  elasticsearch:
+      container_name: els2  
+      image: docker.elastic.co/elasticsearch/elasticsearch:8.7.1
+      ports:
+      - "9200:9200"
+      volumes:
+      -  elasticsearch-data:/usr/share/elasticsearch/data
+      environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      networks:
+      - elk
+
+  kibana:
+      container_name: kibana2
+      image: docker.elastic.co/kibana/kibana:8.7.1
+      ports:
+      - "5601:5601"
+      depends_on:
+      - elasticsearch
+      environment:
+      - ELASTICSEARCH_URL=http://elasticsearch:9200      
+      networks:
+      - elk
+
+networks:
+  elk:
+    driver: bridge
+
+volumes:
+    elasticsearch-data: 

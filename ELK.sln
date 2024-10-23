@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ELK.KIBANA.SERILOG", "ELK.KIBANA.SERILOG\ELK.KIBANA.SERILOG.csproj", "{A5E56EAA-C1BA-4721-B9EB-ACF9E2883B2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELK.Search", "ELK.Search\ELK.Search.csproj", "{0135FE83-5574-4761-B95E-5ADD5A979EFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5E56EAA-C1BA-4721-B9EB-ACF9E2883B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E56EAA-C1BA-4721-B9EB-ACF9E2883B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E56EAA-C1BA-4721-B9EB-ACF9E2883B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E56EAA-C1BA-4721-B9EB-ACF9E2883B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0135FE83-5574-4761-B95E-5ADD5A979EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0135FE83-5574-4761-B95E-5ADD5A979EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0135FE83-5574-4761-B95E-5ADD5A979EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0135FE83-5574-4761-B95E-5ADD5A979EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {203E8D07-AC7D-4D13-B603-00F1F15D7BEC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@ELK.KIBANA.SERILOG_HostAddress = http://localhost:5287
+
+GET {{ELK.KIBANA.SERILOG_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
